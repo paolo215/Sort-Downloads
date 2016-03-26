@@ -27,5 +27,5 @@ def main():
         else:
             shutil.move(DOWNLOADS_PATH + "/" + i, DOWNLOADS_PATH  +"/" + ext.upper() + "/" + i)
 
-if __main__ == "__name__":
+if __name__ == "__main__":
     main()
